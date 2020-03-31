@@ -4,17 +4,18 @@
 **要求输入提示信息为：无输入提示信息和输入数据
 **要求输出格式为：（1）"%5d"  
                   （2）"\nsum=%d\n"*/
-#include <iostream>
-using namespace std;
-int main()
-{
-int sum=0;
-for(int i=1;i<51;i++)
-{
-if(2*i%7==0&&2*i%3!=0)
-{
-sum=sum+2*i;
-printf("%5d",2*i);
-}}
-printf("\nsum=%d\n",sum);
-}
+//#include <iostream>
+//using namespace std;
+//int main()
+//{
+//    int sum = 0;
+//    for (int i = 1; i < 51; i++)
+//    {
+//        if (2 * i % 7 == 0 && 2 * i % 3 != 0)
+//        {
+//            sum = sum + 2 * i;
+//            printf("%5d", 2 * i);
+//        }
+//    }
+//    printf("\nsum=%d\n", sum);
+//}

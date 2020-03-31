@@ -7,15 +7,15 @@ I>1000000Ê±£¬³¬¹ı100ÍòµÄ²¿·Ö°´1%Ìá³É¡£´Ó¼üÅÌÊäÈëµ±ÔÂÀûÈóI£¬ÇóÓ¦·¢·Å½±½ğ×ÜÊı¡£ÒªÇ
 ³ÌĞòµÄÔËĞĞÊ¾ÀıÈçÏÂ£º
 ÇëÊäÈëÀûÈó£º234000
 ½±½ğÊÇ  19200.00*/
-#include<iostream>
-using namespace ::std;
+//#include<iostream>
+//using namespace ::std;
 //int main()
 //{
-//	int I=0;
+//	long I=0;
 //	float bonus;
-//	cout<<"ÌáÊ¾ĞÅÏ¢£º\"ÇëÊäÈëÀûÈó:\""<<endl;
+//	printf("ÇëÊäÈëÀûÈó£º");
 //
-//	cin>>I;
+//	scanf_s("%ld", &I);
 //	int tmp=I/100000;
 //	switch (tmp) {
 //		case 0:
@@ -42,5 +42,5 @@ using namespace ::std;
 //			bonus=0.01*(I-1e6)+0.015*4e5+0.03*2e5+0.05*2e5+0.075*1e5+1e5*0.1;
 //			break;
 //	}
-//	printf("½±½ğÊÇ%.2f",bonus);
+//	printf("½±½ğÊÇ  %.2f",bonus);
 //}

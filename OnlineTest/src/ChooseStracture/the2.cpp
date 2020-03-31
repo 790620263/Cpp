@@ -19,80 +19,81 @@
  The number of days of this month is 31
  */
 
-#include <iostream>
-#include "stdio.h"
-using namespace std;
-int main()
-{
-	int year, month;
-	cout << "提示信息：\"Please enter year,month\"\n" << endl;
-	cin>>year>>month;
-//	scanf("%d%d", &year, &month);
 
-	//判断闰年
-	bool b =
-		((year % 4 == 0) && (year % 100 != 0)) || year % 400 == 0 ?
-		true : false;
-
-	//季节
-	const char *season;
-	if (month > 0 && month < 13) {
-		if (month > 2 && month <= 5)
-		{
-			season = "spring";
-		}
-		else	if (month > 5 && month <= 8)
-		{
-			season = "summer";
-		}
-		else 	if (month > 8 && month <= 11)
-		{
-			season = "autumn";
-		}
-		else
-		{
-			season = "winter";
-		}
-	}
-	else
-	{
-		printf("ERROR\n");
-		return -1;
-	}
-
-	int day;
-	switch (month) {
-	case 1:
-	case 3:
-	case 5:
-	case 7:
-	case 8:
-	case 10:
-	case 12:
-		day = 31;
-		break;
-	case 2:
-		if (b)day = 29;
-		else
-			day = 28;
-		break;
-	case 4:
-	case 6:
-	case 9:
-	case 11:
-		day = 30;
-		break;
-	default:
-		printf("ERROR\n");
-		return -1;
-	}
-
-
-	if (b) {
-		printf("%d is leap year\n",year);
-	} else {
-		printf("%d is not leap year\n",year);
-	}
-	printf("The season is %s \n", season);
-	printf("The number of days of this month is %d\n", day);
-}
+//#include <iostream>
+//#include "stdio.h"
+//using namespace std;
+//int main()
+//{
+//	int year, month;
+//	cout << "Please enter year,month:" ;
+//	scanf_s("%d,%d", &year, &month);
+////	scanf("%d%d", &year, &month);
+//
+//	//判断闰年
+//	bool b =
+//		((year % 4 == 0) && (year % 100 != 0)) || year % 400 == 0 ?
+//		true : false;
+//
+//	//季节
+//	const char *season;
+//	if (month > 0 && month < 13) {
+//		if (month > 2 && month <= 5)
+//		{
+//			season = "spring";
+//		}
+//		else	if (month > 5 && month <= 8)
+//		{
+//			season = "summer";
+//		}
+//		else 	if (month > 8 && month <= 11)
+//		{
+//			season = "autumn";
+//		}
+//		else
+//		{
+//			season = "winter";
+//		}
+//	}
+//	else
+//	{
+//		printf("ERROR\n");
+//		return -1;
+//	}
+//
+//	int day;
+//	switch (month) {
+//	case 1:
+//	case 3:
+//	case 5:
+//	case 7:
+//	case 8:
+//	case 10:
+//	case 12:
+//		day = 31;
+//		break;
+//	case 2:
+//		if (b)day = 29;
+//		else
+//			day = 28;
+//		break;
+//	case 4:
+//	case 6:
+//	case 9:
+//	case 11:
+//		day = 30;
+//		break;
+//	default:
+//		printf("ERROR\n");
+//		return -1;
+//	}
+//
+//
+//	if (b) {
+//		printf("%d is leap year\n",year);
+//	} else {
+//		printf("%d is not leap year\n",year);
+//	}
+//	printf("The season is %s \n", season);
+//	printf("The number of days of this month is %d\n", day);
+//}
