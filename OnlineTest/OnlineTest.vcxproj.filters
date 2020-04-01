@@ -59,104 +59,107 @@
     <ClCompile Include="src\ChooseStracture\the3.cpp">
       <Filter>源文件\src\chooseStracture</Filter>
     </ClCompile>
-    <ClCompile Include="MiddleSort1.cpp">
-      <Filter>源文件\src</Filter>
+    <ClCompile Include="src\Arithmetic\arr1_easy.cpp">
+      <Filter>源文件\src\array</Filter>
     </ClCompile>
-    <ClCompile Include="class1.cpp">
+    <ClCompile Include="src\array\arr2_hard.cpp">
+      <Filter>源文件\src\array</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Arithmetic\arr2_sort_easy.cpp">
+      <Filter>源文件\src\Arithmetic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\array\arr1_mid.cpp">
+      <Filter>源文件\src\Arithmetic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp3128.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4641.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4643.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4644.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4642.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4649.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4651.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4656.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4658.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4657.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4659.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4650.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4654.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4652.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4655.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4660.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4663.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4648.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4661.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4664.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4662.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4665.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\class\class1.cpp">
       <Filter>源文件\src\class</Filter>
     </ClCompile>
-    <ClCompile Include="exp4641.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4642.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4643.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4654.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp3128.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4644.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="func1.cpp">
+    <ClCompile Include="src\function\func1.cpp">
       <Filter>源文件\src\function</Filter>
     </ClCompile>
-    <ClCompile Include="func2_hard.cpp">
+    <ClCompile Include="src\function\func2_hard.cpp">
       <Filter>源文件\src\function</Filter>
     </ClCompile>
-    <ClCompile Include="func3_suHard.cpp">
+    <ClCompile Include="src\function\func3_suHard.cpp">
       <Filter>源文件\src\function</Filter>
     </ClCompile>
-    <ClCompile Include="loop1_mid.cpp">
+    <ClCompile Include="src\circulation\loop1_mid.cpp">
       <Filter>源文件\src\circulation</Filter>
     </ClCompile>
-    <ClCompile Include="arr1_mid.cpp">
-      <Filter>源文件\src\array</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4649.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="arr2_hard.cpp">
-      <Filter>源文件\src\array</Filter>
-    </ClCompile>
-    <ClCompile Include="str1_hard.cpp">
-      <Filter>源文件\src\string</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4650.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4651.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4648.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="multipleTable.cpp">
+    <ClCompile Include="src\class\multipleTable.cpp">
       <Filter>源文件\src\class</Filter>
     </ClCompile>
-    <ClCompile Include="exp4652.cpp">
-      <Filter>源文件\src\experience</Filter>
+    <ClCompile Include="src\string\str1_hard.cpp">
+      <Filter>源文件\src\string</Filter>
     </ClCompile>
-    <ClCompile Include="src\Arithmetic\ari1_easy.cpp">
-      <Filter>源文件\src\Arithmetic</Filter>
-    </ClCompile>
-    <ClCompile Include="ari2_sort_easy.cpp">
-      <Filter>源文件\src\Arithmetic</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4655.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4656.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4657.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4658.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4659.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4660.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4661.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4662.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4663.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="exp4664.cpp">
-      <Filter>源文件\src\experience</Filter>
+    <ClCompile Include="src\class\MiddleSort1.cpp">
+      <Filter>源文件\src\class</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

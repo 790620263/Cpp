@@ -37,7 +37,10 @@ The score<60 is:1
 19007
 The score>=averge is:3
  */
+
+
 //#include <iostream>
+//#include <cmath>
 //using namespace std;
 //int Input(long num[], float score[], int array_size);
 ////函数说明：通过终端输入学生学号与分数，并返回实际人数
@@ -66,7 +69,6 @@ The score>=averge is:3
 //
 //    Total1(num, score, n);
 //    Total2(num, score, n);
-//    //cout << n;
 //    return 0;
 //}
 //
@@ -74,11 +76,11 @@ The score>=averge is:3
 //{
 //    //TODO: 通过终端输入学生学号和分数
 //    cout << "Enter the student number and the score:" << endl;
-//    int anum, ascore;
+//    int anum;float ascore;
 //    for (int i = 0; i < array_size; i++)
 //    {
 //        cin >> anum >> ascore;
-//        if (ascore== -1)return i;//i为学生人数
+//        if (ascore < 0 && abs(ascore) < 1 + 1e-5)return i;//i为学生人数
 //        num[i] = anum;
 //        score[i] = ascore;
 //    }
