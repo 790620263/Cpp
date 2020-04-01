@@ -16,9 +16,6 @@
     <Filter Include="源文件\src">
       <UniqueIdentifier>{d0d42e18-f947-4710-a047-02c9173b740f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\src\ChooseStracture">
-      <UniqueIdentifier>{cc20738d-1b3e-4dfc-abee-6398751efe2f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\src\Arithmetic">
       <UniqueIdentifier>{a94143c5-e181-4ecc-8b77-fb5fd9f33504}</UniqueIdentifier>
     </Filter>
@@ -37,27 +34,30 @@
     <Filter Include="源文件\src\array">
       <UniqueIdentifier>{8e562418-299f-454b-a4fc-bf31e35c6894}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\src\chooseStracture">
+      <UniqueIdentifier>{cc20738d-1b3e-4dfc-abee-6398751efe2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\string">
+      <UniqueIdentifier>{b7c46bab-8962-4ee9-aa18-35f73eabcdf8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Arithmetic\Easy1.cpp">
-      <Filter>源文件\src\Arithmetic</Filter>
-    </ClCompile>
     <ClCompile Include="src\ChooseStracture\the1.cpp">
-      <Filter>源文件\src\ChooseStracture</Filter>
+      <Filter>源文件\src\chooseStracture</Filter>
     </ClCompile>
     <ClCompile Include="src\ChooseStracture\the2.cpp">
-      <Filter>源文件\src\ChooseStracture</Filter>
+      <Filter>源文件\src\chooseStracture</Filter>
     </ClCompile>
     <ClCompile Include="src\ChooseStracture\the3.cpp">
-      <Filter>源文件\src\ChooseStracture</Filter>
-    </ClCompile>
-    <ClCompile Include="EasySort1.cpp">
-      <Filter>源文件\src\Arithmetic</Filter>
+      <Filter>源文件\src\chooseStracture</Filter>
     </ClCompile>
     <ClCompile Include="MiddleSort1.cpp">
       <Filter>源文件\src</Filter>
@@ -95,9 +95,6 @@
     <ClCompile Include="loop1_mid.cpp">
       <Filter>源文件\src\circulation</Filter>
     </ClCompile>
-    <ClCompile Include="exp4648.cpp">
-      <Filter>源文件\src\class</Filter>
-    </ClCompile>
     <ClCompile Include="arr1_mid.cpp">
       <Filter>源文件\src\array</Filter>
     </ClCompile>
@@ -107,5 +104,64 @@
     <ClCompile Include="arr2_hard.cpp">
       <Filter>源文件\src\array</Filter>
     </ClCompile>
+    <ClCompile Include="str1_hard.cpp">
+      <Filter>源文件\src\string</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4650.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4651.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4648.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="multipleTable.cpp">
+      <Filter>源文件\src\class</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4652.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Arithmetic\ari1_easy.cpp">
+      <Filter>源文件\src\Arithmetic</Filter>
+    </ClCompile>
+    <ClCompile Include="ari2_sort_easy.cpp">
+      <Filter>源文件\src\Arithmetic</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4655.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4656.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4657.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4658.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4659.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4660.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4661.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4662.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4663.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="exp4664.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OnlineTest.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

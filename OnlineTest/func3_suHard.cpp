@@ -37,59 +37,60 @@ int main()
     cout << "sum of prime numbers:" << sum;
     return 0;
 }*/
-/*
-#include<iostream>
-using namespace std;
-unsigned int InputNumber(char ch)
-{
-    bool success =false ;
-    int num;
-   while(true)
-    {
-        cout << "Please input the number " << ch << "(>1):";
-        cin >> num;
-        success =! cin.fail();
-        if (success && num > 1)
-        {
-            break;
-        }
-        cin.clear();
-        cin.ignore(1024,'\n');
-        cout << "The input must be an integer larger than 1!" << endl;
-   }
-    return num;
-}
-int IsPrime(unsigned int n) {
-    for (int i = 2; i < n / 2 + 1; i++)
-    {
-        if (n % i == 0)return 0;
-    }
-    return 1;
-}
-int PrimeSum(unsigned int m, unsigned int n) {
-    int sum = 0;
-    for (int i = m; i <= n; i++)
-    {
-        if (IsPrime(i) == 1)
-        {
-            cout << i << endl;
-            sum += i;
-        }
-    }
-    return sum;
-}
-int main()
-{
-    int m = 0, n = 0, sum = 0, i = 0;
-    do
-    {
-        m = InputNumber('m');
-        n = InputNumber('n');
-        if (m > n) {
-            cout << "n must be not smaller than m! Input again!" << endl;
-        }
-    } while (m > n);   //保证m<=n
-    sum = PrimeSum(m, n);
-    cout << "sum of prime numbers:" << sum;
-    return 0;
-}*/
+
+//#include<iostream>
+//using namespace std;
+//unsigned int InputNumber(char ch)
+//{
+//    bool success =false ;
+//    int num;
+//   while(true)
+//    {
+//        cout << "Please input the number " << ch << "(>1):";
+//        cin >> num;
+//        success =! cin.fail();
+//        if (success && num > 1)
+//        {
+//            break;
+//        }
+//        cin.clear();
+//        cin.ignore(1024,'\n');
+//        cout << "The input must be an integer larger than 1!" << endl;
+//   }
+//    return num;
+//}
+//int IsPrime(unsigned int n) {
+//    int upper =sqrt(n);
+//    for (int i = 2; i < n / 2 + 1; i++)
+//    {
+//        if (n % i == 0)return 0;
+//    }
+//    return 1;
+//}
+//int PrimeSum(unsigned int m, unsigned int n) {
+//    int sum = 0;
+//    for (int i = m; i <= n; i++)
+//    {
+//        if (IsPrime(i) == 1)
+//        {
+//            cout << i << endl;
+//            sum += i;
+//        }
+//    }
+//    return sum;
+//}
+//int main()
+//{
+//    int m = 0, n = 0, sum = 0, i = 0;
+//    do
+//    {
+//        m = InputNumber('m');
+//        n = InputNumber('n');
+//        if (m > n) {
+//            cout << "n must be not smaller than m! Input again!" << endl;
+//        }
+//    } while (m > n);   //保证m<=n
+//    sum = PrimeSum(m, n);
+//    cout << "sum of prime numbers:" << sum;
+//    return 0;
+//}

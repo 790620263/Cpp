@@ -200,12 +200,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="arr1_mid.cpp" />
     <ClCompile Include="arr2_hard.cpp" />
     <ClCompile Include="class1.cpp" />
-    <ClCompile Include="EasySort1.cpp" />
+    <ClCompile Include="ari2_sort_easy.cpp" />
     <ClCompile Include="exp3128.cpp" />
     <ClCompile Include="exp4641.cpp" />
     <ClCompile Include="exp4642.cpp" />
@@ -213,16 +214,34 @@
     <ClCompile Include="exp4644.cpp" />
     <ClCompile Include="exp4648.cpp" />
     <ClCompile Include="exp4649.cpp" />
+    <ClCompile Include="exp4650.cpp" />
+    <ClCompile Include="exp4651.cpp" />
+    <ClCompile Include="exp4652.cpp" />
     <ClCompile Include="exp4654.cpp" />
+    <ClCompile Include="exp4655.cpp" />
+    <ClCompile Include="exp4656.cpp" />
+    <ClCompile Include="exp4657.cpp" />
+    <ClCompile Include="exp4658.cpp" />
+    <ClCompile Include="exp4659.cpp" />
+    <ClCompile Include="exp4660.cpp" />
+    <ClCompile Include="exp4661.cpp" />
+    <ClCompile Include="exp4662.cpp" />
+    <ClCompile Include="exp4663.cpp" />
+    <ClCompile Include="exp4664.cpp" />
     <ClCompile Include="func1.cpp" />
     <ClCompile Include="func2_hard.cpp" />
     <ClCompile Include="func3_suHard.cpp" />
     <ClCompile Include="loop1_mid.cpp" />
     <ClCompile Include="MiddleSort1.cpp" />
-    <ClCompile Include="src\Arithmetic\Easy1.cpp" />
+    <ClCompile Include="multipleTable.cpp" />
+    <ClCompile Include="src\Arithmetic\ari1_easy.cpp" />
     <ClCompile Include="src\ChooseStracture\the1.cpp" />
     <ClCompile Include="src\ChooseStracture\the2.cpp" />
     <ClCompile Include="src\ChooseStracture\the3.cpp" />
+    <ClCompile Include="str1_hard.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OnlineTest.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
