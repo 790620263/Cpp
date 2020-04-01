@@ -236,6 +236,7 @@
     <ClCompile Include="src\experience\exp4663.cpp" />
     <ClCompile Include="src\experience\exp4664.cpp" />
     <ClCompile Include="src\experience\exp4665.cpp" />
+    <ClCompile Include="src\experience\exp4667.cpp" />
     <ClCompile Include="src\function\func1.cpp" />
     <ClCompile Include="src\function\func2_hard.cpp" />
     <ClCompile Include="src\function\func3_suHard.cpp" />

@@ -161,6 +161,9 @@
     <ClCompile Include="src\class\MiddleSort1.cpp">
       <Filter>源文件\src\class</Filter>
     </ClCompile>
+    <ClCompile Include="src\experience\exp4667.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="OnlineTest.rc">
