@@ -59,75 +59,96 @@ Num Name Score*/
 
 
 
-#include<iostream>
-#include<string>
-using namespace std;
-const int array_size = 30;
-int n=0;
-
-//结构体内部数据类型未定义
-struct student {
-    long num = 0L;
-    string name = "";
-    float score = 0.0;
-};
-
-//函数说明：输入的学生学号及分数
-//参数说明：数组score存放学生的学号、姓名和成绩.
-//返回值：返回班级的实际人数.
-int Input(struct student score[]) {
-    cout << "Enter the student number,name and the score:" << endl;
-    long anum = 0L;
-    string aname="";
-    float ascore=0.0;
-
-    for (int i = 0; i < array_size; i++)
-    {
-        cin >> anum >> aname >> ascore;
-        if (ascore < 0 && abs(ascore) < 1 + 1e-5)return i;
-        score[i].name = aname;
-        score[i].num = anum;
-        score[i].score = ascore;
-    }
-    return array_size;
-};
-
-//函数说明：统计不及格人数及打印不及格学生名单
-//参数说明：数组score存放学生的学号、姓名和成绩，n班级实际人数.
-//返回值：无
-void Total1(struct student score[], int n) {
-    //变量声明：total:不及格人数
-    int total = 0;
-    //TODO: 统计不及格人数
-
-    cout << "The number of fail is:" << total << endl;
-    cout << "Num\tName\tScore" << endl;
-
-    //TODO: 打印不及格学生名单
-
-};
-
-//函数说明：统计成绩在全班平均分及平均分之上的学生人数及打印这些学生的名单
-//参数说明：参数说明：数组score存放学生的学号、姓名和成绩，n班级实际人数.
-//返回值：无
-void Total2(struct student score[], int n) {
-    //变量声明：average:平均分; sum：总分；total:高于平均分的人数
-    float average = 0.0, sum = 0.0;
-    int total = 0;
-    //TODO: 计算平均分
-
-    cout << "The average score is " << average << endl;
-
-    //TODO: 统计平均分以上学生人数
-    cout << "The number above average score is:" << total << endl;
-    cout << "Num\tName\tScore";
-
-    //TODO: 打印平均分以上学生名单
-
-};
-
-int main()
-{
-    struct student score[array_size];
-    n=Input(score);
-}
+//#include<iostream>
+//#include<string>
+//using namespace std;
+//const int array_size = 30;
+//
+////结构体内部数据类型未定义
+//struct student {
+//    long num = 0L;
+//    string name = "";
+//    float score = 0.0;
+//};
+//
+////函数说明：输入的学生学号及分数
+////参数说明：数组score存放学生的学号、姓名和成绩.
+////返回值：返回班级的实际人数.
+//int Input(struct student score[]) {
+//    cout << "Enter the student number,name and the score:" << endl;
+//    long anum = 0L;
+//    string aname="";
+//    float ascore=0.0;
+//
+//    for (int i = 0; i < array_size; i++)
+//    {
+//        cin >> anum >> aname >> ascore;
+//        if (ascore < 0 && abs(ascore) < 1 + 1e-5)return i;
+//        score[i].name = aname;
+//        score[i].num = anum;
+//        score[i].score = ascore;
+//    }
+//    return array_size;
+//};
+//
+////函数说明：统计不及格人数及打印不及格学生名单
+////参数说明：数组score存放学生的学号、姓名和成绩，n班级实际人数.
+////返回值：无
+//void Total1(struct student score[], int n) {
+//    //变量声明：total:不及格人数
+//    int total = 0;
+//    //TODO: 统计不及格人数
+//    for (int i = 0; i < n; i++)
+//    {
+//        if (score[i].score < 60)total++;
+//    }
+//
+//    cout << "The number of fail is:" << total << endl;
+//    cout << "Num\tName\tScore" << endl;
+//
+//    //TODO: 打印不及格学生名单
+//    for (int i = 0; i < n; i++)
+//    {
+//        if (score[i].score < 60)
+//            cout << score[i].num << '\t' << score[i].name << '\t' << score[i].score<<endl;
+//    }
+//};
+//
+////函数说明：统计成绩在全班平均分及平均分之上的学生人数及打印这些学生的名单
+////参数说明：参数说明：数组score存放学生的学号、姓名和成绩，n班级实际人数.
+////返回值：无
+//void Total2(struct student score[], int n) {
+//    //变量声明：average:平均分; sum：总分；total:高于平均分的人数
+//    float average = 0.0, sum = 0.0;
+//    int total = 0;
+//    //TODO: 计算平均分
+//    for (int i = 0; i < n; i++)
+//    {
+//        sum += score[i].score;
+//    }
+//    if (n > 0) average = sum / n;
+//    cout << "The average score is " << average << endl;
+//
+//    //TODO: 统计平均分以上学生人数
+//    for (int i = 0; i < n; i++)
+//    {
+//        if (score[i].score > average)total++;
+//    }
+//    cout << "The number above average score is:" << total << endl;
+//    cout << "Num\tName\tScore" << endl;
+//
+//    //TODO: 打印平均分以上学生名单
+//    for (int i = 0; i < n; i++)
+//    {
+//        if (score[i].score > average)
+//            cout << score[i].num << '\t' << score[i].name << '\t' << score[i].score<<endl;
+//    }
+//};
+//
+//int main()
+//{
+//    struct student score[array_size];
+//    int n=Input(score);
+//    Total1(score, n);
+//    Total2(score, n);
+//}
