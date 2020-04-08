@@ -1,19 +1,33 @@
-/*#include<iostream>
-
-
-bool bubbleDec(int a, int b)
+#include<iostream>
+template <typename T>
+void printArr(T a[], int size)
+{
+	for(int i = 0; i < size; i++)
+	{
+		std::cout << "a[" << i << "] = " << a[i] << '\t';
+	}
+	std::cout<<std::endl;
+}
+template <typename T>
+bool dec(T a, T b)
 {
 	return a > b;
 }
-bool bubbleAsc(int a, int b)
+template <typename T>
+bool asc(T a, T b)
 {
 	return a < b;
 }
 
-
+//maopao
 //原理：反复交换小数和大数
-void bubbleSort(int a[],int size,bool* sort_rule(int a,int b))
+template <typename T>
+void bubbleSort(T a[],const int size,bool minToMax)
 {
+	bool (*sort_rule)(T, T);
+	if (minToMax)sort_rule = asc;
+	else sort_rule = dec;
+
 	bool isExchanged = false;
 		for (int i = 0; i < size; i++)
 		{
@@ -22,17 +36,39 @@ void bubbleSort(int a[],int size,bool* sort_rule(int a,int b))
 			{
 				if ((*sort_rule)(a[j] , a[j - 1]))//小的放前面
 				{//交换j,j-1
-					int tmp = a[j];
+					T tmp = a[j];
 					a[j] = a[j - 1];
 					a[j - 1] = tmp;
 
 					isExchanged = true;
 				}
 			}
-
+			if (!isExchanged)return;//未交换
 		}
-		if (!isExchanged)return;//未交换
+		
 
+}
+
+//插入
+template <typename T>
+void insertSort(T a[], int size, bool minToMax)
+{
+	T key;
+	bool (*sort_rule)(T , T);
+	if (minToMax)sort_rule= asc;
+	else sort_rule= dec;
+
+	for (int i = 1; i < size; i++)
+	{
+		key = a[i];
+		int j = i-1;
+		while (j >= 0&&(*sort_rule)(key,a[j]))//升序：判断key<aj是否成立
+		{
+			a[j + 1] = a[j];
+			j--;
+		}
+		a[j+1] = key;
+	}
 }
 
 //快排
@@ -40,7 +76,6 @@ void bubbleSort(int a[],int size,bool* sort_rule(int a,int b))
 template <typename T>
 void quickSort(T a[], int left,int right, bool minTomax)
 {
-
 	if (minTomax)
 	{//从小到大排序
 		if (left > right)return;
@@ -118,18 +153,19 @@ T* sort(T arr[], int size)
 	return arr;
 }
 
-//int main()
-//{
-//	const int ARRSIZE = 10;
-//	double arr[ARRSIZE]{ 10,13,2,245,9.5    ,9,11,9,8,27 };
-//	//bubbleSort(arr,ARRSIZE,true);
-//	quickSort(arr, 0, ARRSIZE - 1, false);
-//
-//	for (int i = 0; i < ARRSIZE; i++)
-//	{
-//		std::cout << arr[i]<<'\t';
-//	}
-//}
+int main()
+{
+	const int ARRSIZE = 10;
+	double arr[ARRSIZE]{ 10,13,2,245,9.5    ,9,11,9,8,27 };
+	printArr(arr, ARRSIZE);
+	//bubbleSort(arr,ARRSIZE,true);
+	insertSort(arr, ARRSIZE,true);
+	//quickSort(arr, 0, ARRSIZE - 1, false);
+
+	for (int i = 0; i < ARRSIZE; i++)
+	{
+		std::cout << arr[i]<<'\t';
+	}
+}
 
 
-*/

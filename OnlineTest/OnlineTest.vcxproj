@@ -210,6 +210,7 @@
     <ClCompile Include="src\Arithmetic\test.cpp" />
     <ClCompile Include="src\array\arr1_mid.cpp" />
     <ClCompile Include="src\array\arr2_hard.cpp" />
+    <ClCompile Include="src\array\arr3_mid.cpp" />
     <ClCompile Include="src\ChooseStracture\the1.cpp" />
     <ClCompile Include="src\ChooseStracture\the2.cpp" />
     <ClCompile Include="src\ChooseStracture\the3.cpp" />
@@ -247,6 +248,7 @@
     <ClCompile Include="src\function\func2_hard.cpp" />
     <ClCompile Include="src\function\func3_suHard.cpp" />
     <ClCompile Include="src\function\func递归行列式.cpp" />
+    <ClCompile Include="src\matrix\matrix_hard.cpp" />
     <ClCompile Include="src\string\str1_hard.cpp" />
   </ItemGroup>
   <ItemGroup>

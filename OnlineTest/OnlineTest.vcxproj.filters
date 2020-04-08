@@ -185,6 +185,12 @@
     <ClCompile Include="src\function\func递归行列式.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\array\arr3_mid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\matrix\matrix_hard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="OnlineTest.rc">
