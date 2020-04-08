@@ -231,7 +231,7 @@
     <ClCompile Include="src\experience\exp4654.cpp" />
     <ClCompile Include="src\experience\exp4655.cpp" />
     <ClCompile Include="src\experience\exp4656.cpp" />
-    <ClCompile Include="src\experience\exp4657.cpp" />
+    <ClCompile Include="src\experience\exp4657_4.2公约数.cpp" />
     <ClCompile Include="src\experience\exp4658.cpp" />
     <ClCompile Include="src\experience\exp4659.cpp" />
     <ClCompile Include="src\experience\exp4660.cpp" />
@@ -244,6 +244,7 @@
     <ClCompile Include="src\experience\exp4667字符串.cpp" />
     <ClCompile Include="src\experience\exp4668字符串大小写_回文.cpp" />
     <ClCompile Include="src\experience\exp4672.cpp" />
+    <ClCompile Include="src\experience\exp4674_9.2.cpp" />
     <ClCompile Include="src\function\func1.cpp" />
     <ClCompile Include="src\function\func2_hard.cpp" />
     <ClCompile Include="src\function\func3_suHard.cpp" />

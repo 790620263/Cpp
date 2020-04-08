@@ -98,9 +98,6 @@
     <ClCompile Include="src\experience\exp4658.cpp">
       <Filter>源文件\src\experience</Filter>
     </ClCompile>
-    <ClCompile Include="src\experience\exp4657.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
     <ClCompile Include="src\experience\exp4659.cpp">
       <Filter>源文件\src\experience</Filter>
     </ClCompile>
@@ -189,6 +186,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\matrix\matrix_hard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4657_4.2公约数.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4674_9.2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

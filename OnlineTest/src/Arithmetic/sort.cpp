@@ -153,19 +153,19 @@ T* sort(T arr[], int size)
 	return arr;
 }
 
-int main()
-{
-	const int ARRSIZE = 10;
-	double arr[ARRSIZE]{ 10,13,2,245,9.5    ,9,11,9,8,27 };
-	printArr(arr, ARRSIZE);
-	//bubbleSort(arr,ARRSIZE,true);
-	insertSort(arr, ARRSIZE,true);
-	//quickSort(arr, 0, ARRSIZE - 1, false);
-
-	for (int i = 0; i < ARRSIZE; i++)
-	{
-		std::cout << arr[i]<<'\t';
-	}
-}
+//int main()
+//{
+//	const int ARRSIZE = 10;
+//	double arr[ARRSIZE]{ 10,13,2,245,9.5    ,9,11,9,8,27 };
+//	printArr(arr, ARRSIZE);
+//	//bubbleSort(arr,ARRSIZE,true);
+//	insertSort(arr, ARRSIZE,true);
+//	//quickSort(arr, 0, ARRSIZE - 1, false);
+//
+//	for (int i = 0; i < ARRSIZE; i++)
+//	{
+//		std::cout << arr[i]<<'\t';
+//	}
+//}
 
 

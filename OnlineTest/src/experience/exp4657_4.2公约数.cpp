@@ -1,5 +1,5 @@
 /*
- 函数。实验目标：学会利用引用传递返回多个函数值。
+ 4.2函数。实验目标：学会利用引用传递返回多个函数值。
 实验要求：编写函数gcd_lcm求两个整数的最大公约数和最小公倍数，编写主函数根据用户输入的两个整数调用函数gcd_lcm求解并输出它们的最大公约数的最小公倍数。
 
 输出语句格式：
@@ -21,6 +21,20 @@ The LCM of them is 168*/
 //using namespace std;
 ////only necessary output statments are given here
 //void gcd_lcm(int num1, int num2, int& gcd, int& lcm);
+//void gcd_lcm_way2(int num1, int num2, int& gcd, int& lcm)
+//{
+//    gcd = 0;
+//    int smaller = num1 < num2 ? num1 : num2;
+//    for (int i = 1; i <= smaller; i++)
+//    {
+//        if (num1 % i == 0 && num2 % i == 0)
+//        {
+//            gcd = i;
+//        }
+//    }
+//
+//    lcm = num1 * num2 / gcd;//最小公倍数=这几个数的乘积除以他们的最大公因数
+//}
 //int main()
 //{
 //    int num1, num2,GCD,LCM;
@@ -28,7 +42,7 @@ The LCM of them is 168*/
 //    //to add other statements you need
 //    std::cout << "Please input two integers: ";
 //    cin >> num1 >> num2;
-//    gcd_lcm(num1, num2, gcd,lcm);
+//    gcd_lcm_way2(num1, num2, gcd,lcm);
 //    //to add other statements you need
 //    std::cout << "The GCD of them is " << gcd << endl;
 //    std::cout << "The LCM of them is " << lcm << endl;
