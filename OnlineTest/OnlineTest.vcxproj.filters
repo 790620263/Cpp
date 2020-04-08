@@ -128,13 +128,7 @@
     <ClCompile Include="src\experience\exp4661.cpp">
       <Filter>源文件\src\experience</Filter>
     </ClCompile>
-    <ClCompile Include="src\experience\exp4664.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
     <ClCompile Include="src\experience\exp4662.cpp">
-      <Filter>源文件\src\experience</Filter>
-    </ClCompile>
-    <ClCompile Include="src\experience\exp4665.cpp">
       <Filter>源文件\src\experience</Filter>
     </ClCompile>
     <ClCompile Include="src\class\class1.cpp">
@@ -161,8 +155,35 @@
     <ClCompile Include="src\class\MiddleSort1.cpp">
       <Filter>源文件\src\class</Filter>
     </ClCompile>
-    <ClCompile Include="src\experience\exp4667.cpp">
+    <ClCompile Include="src\Arithmetic\sort.cpp">
+      <Filter>源文件\src\Arithmetic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4667字符串.cpp">
       <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4666字符串加解密.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4665结构体成绩统计.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4664二维数组.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4668字符串大小写_回文.cpp">
+      <Filter>源文件\src\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Arithmetic\data_struct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experience\exp4672.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Arithmetic\test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\function\func递归行列式.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

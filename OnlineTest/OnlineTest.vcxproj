@@ -205,6 +205,9 @@
   <ItemGroup>
     <ClCompile Include="src\Arithmetic\arr1_easy.cpp" />
     <ClCompile Include="src\Arithmetic\arr2_sort_easy.cpp" />
+    <ClCompile Include="src\Arithmetic\data_struct.cpp" />
+    <ClCompile Include="src\Arithmetic\sort.cpp" />
+    <ClCompile Include="src\Arithmetic\test.cpp" />
     <ClCompile Include="src\array\arr1_mid.cpp" />
     <ClCompile Include="src\array\arr2_hard.cpp" />
     <ClCompile Include="src\ChooseStracture\the1.cpp" />
@@ -234,12 +237,16 @@
     <ClCompile Include="src\experience\exp4661.cpp" />
     <ClCompile Include="src\experience\exp4662.cpp" />
     <ClCompile Include="src\experience\exp4663.cpp" />
-    <ClCompile Include="src\experience\exp4664.cpp" />
-    <ClCompile Include="src\experience\exp4665.cpp" />
-    <ClCompile Include="src\experience\exp4667.cpp" />
+    <ClCompile Include="src\experience\exp4664二维数组.cpp" />
+    <ClCompile Include="src\experience\exp4665结构体成绩统计.cpp" />
+    <ClCompile Include="src\experience\exp4666字符串加解密.cpp" />
+    <ClCompile Include="src\experience\exp4667字符串.cpp" />
+    <ClCompile Include="src\experience\exp4668字符串大小写_回文.cpp" />
+    <ClCompile Include="src\experience\exp4672.cpp" />
     <ClCompile Include="src\function\func1.cpp" />
     <ClCompile Include="src\function\func2_hard.cpp" />
     <ClCompile Include="src\function\func3_suHard.cpp" />
+    <ClCompile Include="src\function\func递归行列式.cpp" />
     <ClCompile Include="src\string\str1_hard.cpp" />
   </ItemGroup>
   <ItemGroup>

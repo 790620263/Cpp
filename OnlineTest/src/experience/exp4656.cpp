@@ -1,10 +1,10 @@
 /*
-ÊµÑé4.1 º¯Êý¡£±àÐ´ÖÊÊýÅÐ¶Ï¡£ÎÊÌâÃèÊö£¬Èç¹ûÒ»¸öÕûÊýÖ»ÄÜ±»Á½¸ö²»Í¬µÄÒòÊý¡ª¡ª1ºÍÆä×ÔÉíÕû³ý£¬¾Í³ÆÕâ¸öÕûÊýÎ»ÖÊÊý¡£ÀýÈç£¬2¡¢3¡¢5ºÍ7¶¼ÊÇÖÊÊý£¬¶ø4¡¢6¡¢8¾Í²»ÊÇ£¨×¢Òâ£¬1²»ÊÇÖÊÊý£©¡£
-Çë±àÐ´Ò»¸öº¯Êý£¬È·¶¨Ò»¸öÊýÊÇ·ñÎªÖÊÊý¡£ÔÚ³ÌÐòÖÐµ÷ÓÃ´Ëº¯ÊýÀ´È·¶¨²¢´òÓ¡1~10000Ö®¼äµÄËùÓÐÖÊÊý¡£
-Êä³ö¸ñÊ½£º
-Ã¿Êý¿í¶ÈÎª6£¬Ã¿ÐÐÊä³ö10¸öÊý¡£
+å®žéªŒ4.1 å‡½æ•°ã€‚ç¼–å†™è´¨æ•°åˆ¤æ–­ã€‚é—®é¢˜æè¿°ï¼Œå¦‚æžœä¸€ä¸ªæ•´æ•°åªèƒ½è¢«ä¸¤ä¸ªä¸åŒçš„å› æ•°â€”â€”1å’Œå…¶è‡ªèº«æ•´é™¤ï¼Œå°±ç§°è¿™ä¸ªæ•´æ•°ä½è´¨æ•°ã€‚ä¾‹å¦‚ï¼Œ2ã€3ã€5å’Œ7éƒ½æ˜¯è´¨æ•°ï¼Œè€Œ4ã€6ã€8å°±ä¸æ˜¯ï¼ˆæ³¨æ„ï¼Œ1ä¸æ˜¯è´¨æ•°ï¼‰ã€‚
+è¯·ç¼–å†™ä¸€ä¸ªå‡½æ•°ï¼Œç¡®å®šä¸€ä¸ªæ•°æ˜¯å¦ä¸ºè´¨æ•°ã€‚åœ¨ç¨‹åºä¸­è°ƒç”¨æ­¤å‡½æ•°æ¥ç¡®å®šå¹¶æ‰“å°1~10000ä¹‹é—´çš„æ‰€æœ‰è´¨æ•°ã€‚
+è¾“å‡ºæ ¼å¼ï¼š
+æ¯æ•°å®½åº¦ä¸º6ï¼Œæ¯è¡Œè¾“å‡º10ä¸ªæ•°ã€‚
 
-ÊµÀýÊä³ö£º
+å®žä¾‹è¾“å‡ºï¼š
 The prime numbers from 1 to 10000 are:
      2     3     5     7    11    13    17    19    23    29
     31    37    41    43    47    53    59    61    67    71
@@ -15,12 +15,14 @@ The prime numbers from 1 to 10000 are:
   9817  9829  9833  9839  9851  9857  9859  9871  9883  9887
   9901  9907  9923  9929  9931  9941  9949  9967  9973
 There were 1229 prime numbers*/
+
+
 //#include <iostream>
 //#include<cmath>
 //using namespace std;
 //#include <iomanip>
 //
-///* write prototype for function prime */
+//  /* write prototype for function prime */
 //bool prime(int n);
 //int main()
 //{
