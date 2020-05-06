@@ -178,6 +178,9 @@
     <ClCompile Include="src\experience\exp4666字符串加解密.cpp" />
     <ClCompile Include="src\experience\exp4667字符串.cpp" />
     <ClCompile Include="src\experience\exp4668字符串大小写_回文.cpp" />
+    <ClCompile Include="src\experience\exp4669_8.1.cpp" />
+    <ClCompile Include="src\experience\exp4670_8.2.cpp" />
+    <ClCompile Include="src\experience\exp4671_8.3.cpp" />
     <ClCompile Include="src\experience\exp4672.cpp" />
     <ClCompile Include="src\experience\exp4674_9.2.cpp" />
     <ClCompile Include="src\function\func1.cpp" />
