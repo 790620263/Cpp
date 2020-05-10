@@ -153,6 +153,7 @@
     <ClCompile Include="src\class\class1.cpp" />
     <ClCompile Include="src\class\MiddleSort1.cpp" />
     <ClCompile Include="src\class\multipleTable.cpp" />
+    <ClCompile Include="src\class_obj\class_obj1_middle_字符串连接.cpp" />
     <ClCompile Include="src\experience\exp3128.cpp" />
     <ClCompile Include="src\experience\exp4641.cpp" />
     <ClCompile Include="src\experience\exp4642.cpp" />
@@ -186,10 +187,17 @@
     <ClCompile Include="src\function\func1.cpp" />
     <ClCompile Include="src\function\func2_hard.cpp" />
     <ClCompile Include="src\function\func3_suHard.cpp" />
+    <ClCompile Include="src\function\func4_middle_素数.cpp" />
     <ClCompile Include="src\function\func递归行列式.cpp" />
     <ClCompile Include="src\matrix\matrix_hard.cpp" />
-    <ClCompile Include="src\pointer\pointer_middle1.cpp" />
+    <ClCompile Include="src\pointer\pointer3_middle_交换abc.cpp" />
+    <ClCompile Include="src\pointer\pointer4_middle_偶数因子.cpp" />
+    <ClCompile Include="src\pointer\pointer_middle_1.cpp" />
+    <ClCompile Include="src\pointer\pointer_middle_2.cpp" />
     <ClCompile Include="src\string\str1_hard.cpp" />
+    <ClCompile Include="src\string\str2_middle.cpp" />
+    <ClCompile Include="src\string\str3_middle.cpp" />
+    <ClCompile Include="src\string\str4_middle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

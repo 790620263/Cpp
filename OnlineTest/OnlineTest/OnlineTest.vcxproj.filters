@@ -168,7 +168,31 @@
     <ClCompile Include="src\experience\exp4669_8.1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\pointer\pointer_middle1.cpp">
+    <ClCompile Include="src\pointer\pointer_middle_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pointer\pointer_middle_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\string\str2_middle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\string\str3_middle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\string\str4_middle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\function\func4_middle_素数.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\class_obj\class_obj1_middle_字符串连接.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pointer\pointer3_middle_交换abc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pointer\pointer4_middle_偶数因子.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
