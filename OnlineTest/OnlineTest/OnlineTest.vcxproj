@@ -188,6 +188,7 @@
     <ClCompile Include="src\function\func3_suHard.cpp" />
     <ClCompile Include="src\function\func递归行列式.cpp" />
     <ClCompile Include="src\matrix\matrix_hard.cpp" />
+    <ClCompile Include="src\pointer\pointer_middle1.cpp" />
     <ClCompile Include="src\string\str1_hard.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

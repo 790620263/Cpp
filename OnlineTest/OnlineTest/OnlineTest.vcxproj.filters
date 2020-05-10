@@ -168,5 +168,8 @@
     <ClCompile Include="src\experience\exp4669_8.1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\pointer\pointer_middle1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
